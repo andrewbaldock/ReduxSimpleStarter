@@ -14,7 +14,7 @@ const VideoListItem = ({ video, onVideoSelect, selectedVideo }) => {
   return (
 
     <li
-      className={"list-group-item " + isSelected()}
+      className={"video-item list-group-item " + isSelected()}
       style={ {fontWeight: highlightSelected()} }
       onClick={() => onVideoSelect(video)}
     >
